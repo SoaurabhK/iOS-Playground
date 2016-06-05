@@ -213,9 +213,24 @@ while loopCounter < myArray.count {
     loopCounter += 1
 }
 
+//Prime number 
 
-
-
+func isNumPrime(let num:Int) -> Bool {
+    
+    var isPrime:Bool = true;
+    
+    if num <= 0 || num == 1 {
+        return false
+    }
+    
+    for (var i = 2; i <= Int(sqrt(Double(num))); i++) {
+        if num % i == 0 {
+            isPrime = false
+            break;
+        }
+    }
+    return isPrime;
+}
 
 
 
