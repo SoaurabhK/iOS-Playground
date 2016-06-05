@@ -221,7 +221,7 @@ func isNumPrime(let num:Int) -> Bool {
         return false
     }
     
-    var isPrime:Bool = true;
+    var isPrime : Bool = true;
     let sqrtNum : Int = Int(sqrt(Double(num)));
     
     for i in 2...(sqrtNum + 1) {
