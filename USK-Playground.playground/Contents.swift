@@ -223,7 +223,7 @@ func isNumPrime(let num:Int) -> Bool {
         return false
     }
     
-    for (var i = 2; i <= Int(sqrt(Double(num))); i++) {
+    for i  in 2...Int(sqrt(Double(num))) {
         if num % i == 0 {
             isPrime = false
             break;
