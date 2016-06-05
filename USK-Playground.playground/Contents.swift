@@ -217,13 +217,13 @@ while loopCounter < myArray.count {
 
 func isNumPrime(let num:Int) -> Bool {
     
-    var isPrime:Bool = true;
-    
     if num < 2 {
         return false
     }
     
-    for i  in 2...Int(sqrt(Double(num))) {
+    var isPrime:Bool = true;
+    
+    for i in 2...Int(sqrt(Double(num))) {
         if num % i == 0 {
             isPrime = false
             break;
