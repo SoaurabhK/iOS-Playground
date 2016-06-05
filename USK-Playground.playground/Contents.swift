@@ -152,56 +152,43 @@ if username == "soaurabhk" && password == "myPass123" {
     
 }
 
+//For Loops
 
+for var i = 1; i < 10; i += 1 {
+    
+    print("i is \(i)")
+}
 
+//Single line commenting 
 
+/*
+ This is 
+ a multi-line
+ comment
+ */
 
+var myArr = [8, 3 , 9, 91]
 
+for x in myArr {
+    print(x)
+    //x = x + 1 -> Error, because x is let, which is equal to value of arr
+}
 
+for (index, value) in myArr.enumerate() {
+    
+    print(value);
+    
+    myArr[index] += 1;
+}
 
+for var i = 0; i < myArr.count; i += 1 {
+    
+    print(myArr[i])
+    
+    myArr[i] += 1;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(myArr)
 
 
 
