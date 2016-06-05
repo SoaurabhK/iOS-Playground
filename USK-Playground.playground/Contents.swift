@@ -191,6 +191,31 @@ for var i = 0; i < myArr.count; i += 1 {
 print(myArr)
 
 
+//While Loops
+
+var yourNum = 1
+
+while yourNum <= 10 {
+    
+    print(yourNum * 5)
+    
+    yourNum += 1  ;
+}
+
+var myArray = [8, 3, 1, 9, 4, 5, 7]
+
+var loopCounter = 0
+
+while loopCounter < myArray.count {
+    
+    print(myArray[loopCounter])
+    
+    loopCounter += 1
+}
+
+
+
+
 
 
 
