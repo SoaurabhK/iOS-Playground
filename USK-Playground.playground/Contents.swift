@@ -88,6 +88,72 @@ print("The total cost of the tree items is \(totalCost)")
 
 
 
+//If And Else Statements
+let age = 20
+
+if age >= 18 {
+    
+    print("you can play!")
+    
+} else {
+    
+    print("Sorry, you're too young")
+}
+
+
+let myName = "Kirsten"
+
+if myName == "SK" {
+    
+    print("Hi \(myName), you can play")
+    
+} else {
+    
+    print("Sorry, \(myName), you can't play")
+}
+
+if myName == "Kirsten" && age >= 18 {
+    
+    print("You can play!")
+}
+
+if myName == "Kirsten" || myName == "SK" {
+    
+    print("Welcome, \(myName)")
+}
+
+let isGenderMale = true
+
+if isGenderMale {
+    
+    print("you are a man!!!")
+}
+
+//Check if the userName and password are correct
+let username = "soaurabhk"
+
+let password = "myPass123"
+
+if username == "soaurabhk" && password == "myPass123" {
+    
+    print("you're In!")
+    
+} else if username != "soaurabhk" && password != "myPass123" {
+    
+    print("Both your username and password are wrong")
+    
+} else if username == "soaurabhk" {
+    
+    print("your password is wrong")
+    
+} else {
+    
+    print("your username is wrong")
+    
+}
+
+
+
 
 
 
