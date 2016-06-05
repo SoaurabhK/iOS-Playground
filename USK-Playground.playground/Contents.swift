@@ -219,7 +219,7 @@ func isNumPrime(let num:Int) -> Bool {
     
     var isPrime:Bool = true;
     
-    if num <= 0 || num == 1 {
+    if num < 2 {
         return false
     }
     
