@@ -154,12 +154,45 @@ if username == "soaurabhk" && password == "myPass123" {
 
 //For Loops
 
-for var i = 1; i < 10; i += 1 {
+//Swift 2.2:
+// new swift style works well
+for i in 1 ..< 10 {
     
     print("i is \(i)")
 }
 
-//Single line commenting 
+for i in 1...10 {
+    print("I'm number \(i)")
+}
+
+//For decrement index
+for index in 10.stride(to: 0, by: -1) {
+    print(index)
+}
+
+//Or you can use reverse() like
+
+for index in (0 ..< 10).reverse() {
+    print(index)
+}
+
+//for float type  (there is no need to define any types to index)
+
+for index in 0.stride(to: 0.6, by: 0.1) {
+    print(index)  //0.0 ,0.1, 0.2,0.3,0.4,0.5
+}
+
+//Swift 3.0:
+//From Swift3.0, The stride(to:by:) method on Strideable has been replaced with a free function, stride(from:to:by:)
+/*
+
+ for i in stride(from: 0, to: 10, by: 1){
+    print(i)
+ }
+ 
+*/
+
+//Single line commenting
 
 /*
  This is 
