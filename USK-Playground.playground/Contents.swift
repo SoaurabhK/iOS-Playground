@@ -58,7 +58,7 @@ arrInts.removeAtIndex(3) //Removes the element at index, do shifting and returns
 
 print(arrInts)
 
-arrInts.sort()
+arrInts.sort() // To do a numerical or alphabetical sort, use this default method
 
 
 //Dictionaries
