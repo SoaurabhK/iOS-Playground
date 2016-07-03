@@ -204,7 +204,7 @@ var myArr = [8, 3 , 9, 91]
 
 for x in myArr {
     print(x)
-    //x = x + 1 -> Error, because x is let, which is equal to value of arr
+    //x = x + 1 -> Error, because x is let, which is assigned value of arr elements in turn.
 }
 
 for (index, value) in myArr.enumerate() {
@@ -214,7 +214,7 @@ for (index, value) in myArr.enumerate() {
     myArr[index] += 1;
 }
 
-for var i = 0; i < myArr.count; i += 1 {
+for i in 0 ..< myArr.count {
     
     print(myArr[i])
     
@@ -232,7 +232,7 @@ while yourNum <= 10 {
     
     print(yourNum * 5)
     
-    yourNum += 1  ;
+    yourNum += 1
 }
 
 var myArray = [8, 3, 1, 9, 4, 5, 7]
