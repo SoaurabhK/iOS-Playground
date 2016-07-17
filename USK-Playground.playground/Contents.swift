@@ -293,6 +293,9 @@ newTypeString.uppercaseString //email-address input
 
 newTypeString.lowercaseString //email-address input
 
+var origTypeString:String = String(newTypeString)
+
+
 
 
 
