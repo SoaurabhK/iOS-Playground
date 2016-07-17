@@ -266,6 +266,34 @@ func isNumPrime(let num:Int) -> Bool {
     return isPrime;
 }
 
+//Advanced string manipulation
+
+var newString = str + " Whatsup"
+
+//split a string into individual characters
+for char in newString.characters {
+    print(char)
+}
+
+var newTypeString = NSString(string: newString)
+
+newTypeString.substringToIndex(5)
+
+newTypeString.substringFromIndex(6)
+
+newTypeString.substringWithRange(NSRange(location:8, length: 5))
+
+if newTypeString.containsString("What") {
+    print("Yes, it's here")
+}
+
+newTypeString.componentsSeparatedByString(" ") //equivalent of split in JS or explode in php
+
+newTypeString.uppercaseString //email-address input
+
+newTypeString.lowercaseString //email-address input
+
+
 
 
 
